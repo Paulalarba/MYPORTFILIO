@@ -1,0 +1,21 @@
+body {
+    background-color: #11120e;
+    color: white;
+}
+#main-header{
+    background-color: hsl(75, 13%, 6%);
+    padding-left: 50px;
+    row-gap: 10px;
+}
+#navbar{
+    column-gap: 50px;
+    padding-right: 200px;
+    row-gap: 10px;
+}
+#logo{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+#aboutme{
+    padding-left: 200px;
+}
