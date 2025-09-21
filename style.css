@@ -43,3 +43,13 @@ section{
 .about{
     justify-content: center;
 }
+.about{
+    padding: 20px 50px;
+}
+#contact a{
+    color: white;
+    text-decoration: none;
+}
+#contact a:hover{
+    color: red;
+}
