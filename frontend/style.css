@@ -1,21 +1,45 @@
 body {
     background-color: #11120e;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#main-header{
-    background-color: hsl(75, 13%, 6%);
-    padding-left: 50px;
-    row-gap: 10px;
+
+#navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
 }
-#navbar{
-    column-gap: 50px;
-    padding-right: 200px;
-    row-gap: 10px;
+
+#navbar a:first-child{
+    margin-left: 0;
 }
-#logo{
-    padding-left: 100px;
-    padding-top: 20px;
+#navbar a:hover {
+    color: red;
+    transition: 0.3s;
 }
-#aboutme{
-    padding-left: 200px;
+header{
+    padding-right: 100px;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.profile-pic{
+    width: 100%;
+    max-width: 250px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+
+
+}
+header{
+    background-color: black;
+}
+section{
+    padding: 40px 20px;
+    margin-bottom: 10px;
+}
+.about{
+    justify-content: center;
 }
